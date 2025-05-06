@@ -20,6 +20,8 @@ Task tracker is a project used to track and manage your tasks. A simple command 
 
 Use git to download this repo.
 
+        git clone https://github.com/wingforth/task-tracker-cli.git
+
 ## Usage
 
 1. First start task-cli:  
