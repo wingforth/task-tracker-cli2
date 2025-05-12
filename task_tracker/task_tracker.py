@@ -1,14 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-@File    : task_tracker.py
-@Time    : 2025/05/04 15:20:26
-@Author  : Wingforth
-@Version : 1.0
-@Software: Visual Studio Code
-@Desc    : Task tracker module.
+Task tracker module.
 """
 
-# Here put the import lib
 from typing import Generator
 from datetime import datetime
 from pathlib import Path
