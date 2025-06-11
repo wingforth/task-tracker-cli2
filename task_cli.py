@@ -29,7 +29,7 @@ class TackCLI(Cmd):
 
     def __init__(self) -> None:
         super().__init__()
-        self.task_tracker = TaskTracker(Path(__file__).parent.joinpath("tasks.json"))
+        self.task_tracker = TaskTracker(Path(__file__).resolve().parent.joinpath("tasks.json"))
         self.task_tracker.load()
 
     @staticmethod
