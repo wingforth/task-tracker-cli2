@@ -19,7 +19,7 @@ class TaskTracker:
         self._tasks: dict[str, list[str]] = {}
         self._new_id: int = 1
         self._cache_file: Path = (
-            Path(__file__).parent.joinpath("tasks.json")
+            Path(__file__).resolve().parent.joinpath("tasks.json")
             if cache_file is None
             else cache_file
         )
